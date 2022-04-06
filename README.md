@@ -4,7 +4,7 @@ Accruvia Test Project is a Python project where inside lives the Poor Man's Twit
 
 ## Do not forget
 
-In order to have a working the project, please:
+In order to have working the project, please:
 
 ```bash
 python3 run migrate
