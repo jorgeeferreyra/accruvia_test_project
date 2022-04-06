@@ -20,7 +20,7 @@ def store(request):
     pub_date = timezone.now()
 
     tweet = Tweet(username=username, message=message, pub_date=pub_date)
-
+    tweet.full_clean()
     tweet.save()
 
     return JsonResponse({
